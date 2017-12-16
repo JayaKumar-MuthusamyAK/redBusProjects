@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.redbusprojects.testcases.TC_001LoginPage">
+        <methods>
+          <include name="loginpagetestcase" invocation-numbers="0 1 2 5"/>
+        </methods>
+      </class> <!-- com.redbusprojects.testcases.TC_001LoginPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
